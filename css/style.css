@@ -1,0 +1,31 @@
+html, body {
+    overflow: hidden;
+    background: #fee;
+  }
+
+  .cartoon {
+    --brown1: #753;
+    --brown2: #975;
+    width: 80vmin;
+    height: 80vmin;
+    background: #fee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .cartoon div {
+    position: absolute;
+    box-sizing: border-box;
+  }
+
+  .body {
+    width: 50%;
+    height: 50%;
+    background: var(--brown1);
+    border-radius: 50%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0)
+  }
